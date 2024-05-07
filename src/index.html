@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"/>
+  <link href="./output.css" rel="stylesheet">
+  <title>Roket Admin - Dashboard</title>
+
+</head>
+<body>
+    <!-- Start Sidebar -->
+    <div class="fixed left-0 top-0 w-64 h-full bg-gray-900 p-4">
+        <a href="" class="flex items-center pb-4 border-b border-b-gray-800">
+            <img src="https://placehold.co/52x52" alt="" class="w-8 h-8 rounded object-cover">
+            <span class="text-lg font-bold text-white ml-3">Logo</span>
+        </a>
+        <ul class="mt-4 sidebar-menu">
+            <li class="mb-1 group active">
+                <a href="" class="flex items-center py-2 px-4 text-gray-300 hover:bg-gray-950 rounded-md hover:text-gray-100 group-[.active]:bg-gray-800 group-[.active]:text-white">
+                    <i class="ri-home-line mr-3 text-lg"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+
+            <li class="mb-1 group">
+                <a href="" class="flex items-center py-2 px-4 text-gray-300 hover:bg-gray-950 rounded-md hover:text-gray-100 group-[.active]:bg-gray-800 group-[.active]:text-white sidebar-dropdown-toggle">
+                    <i class="ri-instance-line mr-3 text-lg"></i>
+                    <span>Ecommerce</span>
+                    <i class="ri-arrow-right-s-line ml-auto group-[.selected]:rotate-90"></i>
+                </a>
+                <ul class="pl-7 mt-2 hidden group-[.selected]:block">
+                    <li class="mb-4 hover:bg-gray-600">
+                        <i class="ri-arrow-drop-right-fill text-gray-300"></i>
+                        <a href="" class="text-gray-300 hover:text-gray-100 text-sm before:contents-[..] before:w-1 before:h-1 before:rounded-full before:bg-gray-300">Active order</a>
+                    </li>
+                    <li class="mb-4">
+                        <i class="ri-arrow-drop-right-fill text-gray-300"></i>
+                        <a href="" class="text-gray-300 hover:text-gray-100 text-sm before:contents-[..] before:w-1 before:h-1 before:rounded-full before:bg-gray-300">Active order</a>
+                    </li>
+                    <li class="mb-4">
+                        <i class="ri-arrow-drop-right-fill text-gray-300"></i>
+                        <a href="" class="text-gray-300 hover:text-gray-100 text-sm before:contents-[..] before:w-1 before:h-1 before:rounded-full before:bg-gray-300">Active order</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="mb-1 group">
+                <a href="" class="flex items-center py-2 px-4 text-gray-300 hover:bg-gray-950 rounded-md hover:text-gray-100 group-[.active]:bg-gray-800 group-[.active]:text-white">
+                    <i class="ri-list-view mr-3 text-lg"></i>
+                    <span>Widgets</span>
+                </a>
+            </li>
+
+
+
+            <li class="mb-1 group">
+                <a href="" class="flex items-center py-2 px-4 text-gray-300 hover:bg-gray-950 rounded-md hover:text-gray-100 group-[.active]:bg-gray-800 group-[.active]:text-white sidebar-dropdown-toggle">
+                    <i class="ri-stack-line mr-3 text-lg"></i>
+                    <span>Layout Options</span>
+                    <i class="ri-arrow-right-s-line ml-auto group-[.selected]:rotate-90"></i>
+                </a>
+                <ul class="pl-7 mt-2 hidden group-[.selected]:block">
+                    <li class="mb-4">
+                        <i class="ri-arrow-drop-right-fill text-gray-300"></i>
+                        <a href="" class="text-gray-300 hover:text-gray-100 text-sm before:contents-[..] before:w-1 before:h-1 before:rounded-full before:bg-gray-300">Top Navigation</a>
+                    </li>
+                    <li class="mb-4">
+                        <i class="ri-arrow-drop-right-fill text-gray-300"></i>
+                        <a href="" class="text-gray-300 hover:text-gray-100 text-sm before:contents-[..] before:w-1 before:h-1 before:rounded-full before:bg-gray-300">Boxed</a>
+                    </li>
+                    <li class="mb-4">
+                        <i class="ri-arrow-drop-right-fill text-gray-300"></i>
+                        <a href="" class="text-gray-300 hover:text-gray-100 text-sm before:contents-[..] before:w-1 before:h-1 before:rounded-full before:bg-gray-300">Fixed Sidebar</a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li class="mb-1 group">
+                <a href="" class="flex items-center py-2 px-4 text-gray-300 hover:bg-gray-950 rounded-md hover:text-gray-100 group-[.active]:bg-gray-800 group-[.active]:text-white sidebar-dropdown-toggle">
+                    <i class="ri-pie-chart-line mr-3 text-lg"></i>
+                    <span>Charts</span>
+                    <i class="ri-arrow-right-s-line ml-auto group-[.selected]:rotate-90"></i>
+                </a>
+                <ul class="pl-7 mt-2 hidden group-[.selected]:block">
+                    <li class="mb-4">
+                        <i class="ri-arrow-drop-right-fill text-gray-300"></i>
+                        <a href="" class="text-gray-300 hover:text-gray-100 text-sm before:contents-[..] before:w-1 before:h-1 before:rounded-full before:bg-gray-300">ChartJS</a>
+                    </li>
+                    <li class="mb-4">
+                        <i class="ri-arrow-drop-right-fill text-gray-300"></i>
+                        <a href="" class="text-gray-300 hover:text-gray-100 text-sm before:contents-[..] before:w-1 before:h-1 before:rounded-full before:bg-gray-300">Flot</a>
+                    </li>
+                    <li class="mb-4">
+                        <i class="ri-arrow-drop-right-fill text-gray-300"></i>
+                        <a href="" class="text-gray-300 hover:text-gray-100 text-sm before:contents-[..] before:w-1 before:h-1 before:rounded-full before:bg-gray-300">Inline</a>
+                    </li>
+                </ul>
+            </li>
+            
+            
+            <li class="mb-1 group">
+                <a href="" class="flex items-center py-2 px-4 text-gray-300 hover:bg-gray-950 rounded-md hover:text-gray-100 group-[.active]:bg-gray-800 group-[.active]:text-white sidebar-dropdown-toggle">
+                    <i class="ri-slideshow-view mr-3 text-lg"></i>
+                    <span>UI Elements</span>
+                    <i class="ri-arrow-right-s-line ml-auto group-[.selected]:rotate-90"></i>
+                </a>
+                <ul class="pl-7 mt-2 hidden group-[.selected]:block">
+                    <li class="mb-4">
+                        <i class="ri-arrow-drop-right-fill text-gray-300"></i>
+                        <a href="" class="text-gray-300 hover:text-gray-100 text-sm before:contents-[..] before:w-1 before:h-1 before:rounded-full before:bg-gray-300">General</a>
+                    </li>
+                    <li class="mb-4">
+                        <i class="ri-arrow-drop-right-fill text-gray-300"></i>
+                        <a href="" class="text-gray-300 hover:text-gray-100 text-sm before:contents-[..] before:w-1 before:h-1 before:rounded-full before:bg-gray-300">Icons</a>
+                    </li>
+                    <li class="mb-4">
+                        <i class="ri-arrow-drop-right-fill text-gray-300"></i>
+                        <a href="" class="text-gray-300 hover:text-gray-100 text-sm before:contents-[..] before:w-1 before:h-1 before:rounded-full before:bg-gray-300">Buttons</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="mb-1 group">
+                <a href="" class="flex items-center py-2 px-4 text-gray-300 hover:bg-gray-950 rounded-md hover:text-gray-100 group-[.active]:bg-gray-800 group-[.active]:text-white sidebar-dropdown-toggle">
+                    <i class="ri-slideshow-view mr-3 text-lg"></i>
+                    <span>Forms</span>
+                    <i class="ri-arrow-right-s-line ml-auto group-[.selected]:rotate-90"></i>
+                </a>
+                <ul class="pl-7 mt-2 hidden group-[.selected]:block">
+                    <li class="mb-4">
+                        <i class="ri-arrow-drop-right-fill text-gray-300"></i>
+                        <a href="" class="text-gray-300 hover:text-gray-100 text-sm before:contents-[..] before:w-1 before:h-1 before:rounded-full before:bg-gray-300">General Elements</a>
+                    </li>
+                    <li class="mb-4">
+                        <i class="ri-arrow-drop-right-fill text-gray-300"></i>
+                        <a href="" class="text-gray-300 hover:text-gray-100 text-sm before:contents-[..] before:w-1 before:h-1 before:rounded-full before:bg-gray-300">Advanced Elements</a>
+                    </li>
+                    <li class="mb-4">
+                        <i class="ri-arrow-drop-right-fill text-gray-300"></i>
+                        <a href="" class="text-gray-300 hover:text-gray-100 text-sm before:contents-[..] before:w-1 before:h-1 before:rounded-full before:bg-gray-300">Editors</a>
+                    </li>
+                </ul>
+            </li>
+
+
+
+        </ul>
+    </div>
+    <!-- End Sidebar -->
+
+    <!-- Start Main  -->
+    <main class="w-[calc(100%-256px)] ml-64">
+        <div class="py-4 px-6 bg-white flex items-center shadow-md shadow-black/5">
+            <button type="button" class="text-lg text-gray-600">
+                <i class="ri-menu-line"></i>
+            </button>
+            <ul class="flex items-center text-sm ml-4">
+                <li class="mr-2">
+                    <a href="" class="text-gray-400 text-sm">Dashboard</a>
+                </li>
+                <li class="text-dray-600 mr-2 text-medium">/</li>
+                <li class="text-dray-600 mr-2 text-medium">Ecommerce</li>
+            </ul>
+            <ul class="ml-auto flex items-center">
+                <li class="mr-2">
+                    <button type="button" class="text-gray-400 rounded flex items-center justify-center hover:bg-gray-50 hover:text-gray-600">
+                        <i class="ri-search-line"></i>
+                    </button>
+                </li>
+                <li class="mr-2">
+                    <button type="button" class="text-gray-400 rounded flex items-center justify-center hover:bg-gray-50 hover:text-gray-600">
+                        <i class="ri-notification-2-line"></i>
+                    </button>
+                </li>
+                <li class="mr-2">
+                    <button type="button" class="text-gray-400 rounded flex items-center justify-center hover:bg-gray-50 hover:text-gray-600">
+                        <img src="https://placehold.co/52x52" alt="" class="w-8 h-8 rounded object-cover">
+                    </button>
+                </li>
+                
+            </ul>
+        </div>
+
+        <div class="p-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-md border shadow-md  border-gray-100 px-6 pt-6 pb-2">
+                    <div class="flex">
+                        <div class="mb-4">
+                            <div class="text-2xl font-semibold">10</div>
+                            <div>New Orders</div>
+                        </div>
+                        <i class="ml-auto text-9xl text-gray-300 ri-shopping-cart-fill"></i>
+                    </div>
+                    <hr>
+                    <div class="grid">
+                        <a href="" class="text-center hover:text-gray-500">More Info</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-md border shadow-md  border-gray-100 px-6 pt-6 pb-2">
+                    <div class="flex">
+                        <div class="">
+                            <div class="text-2xl font-semibold">10</div>
+                            <div>Bounce Rate</div>
+                        </div>
+                        <i class="ml-auto text-9xl text-gray-300 ri-bar-chart-grouped-line"></i>
+                    </div>
+                    <hr>
+                    <div class="grid">
+                        <a href="" class="text-center hover:text-gray-500">More Info</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-md border shadow-md  border-gray-100 px-6 pt-6 pb-2">
+                    <div class="flex">
+                        <div class="">
+                            <div class="text-2xl font-semibold">10</div>
+                            <div>User Registrations</div>
+                        </div>
+                        <i class="ml-auto text-9xl text-gray-300 ri-user-fill"></i>
+                    </div>
+                    <hr>
+                    <div class="grid">
+                        <a href="" class="text-center hover:text-gray-500">More Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- End Main  -->
+    <script src="/src/dist/js/script.js"></script>
+</body>
+</html>
